@@ -46,7 +46,10 @@ In order to create a model these are the following procedure -
 ![Dashboard](https://github.com/Aayush-Basnet/Photos/blob/b41c5ceaca46670662b5d18989dd53db75d23fbc/Screenshot%202024-05-30%20195507.png)
 
 Firstly, I took my time familiarizing myself with the dataset. I checked the shape of the dataset. What column headers I have, what datatypes the columns hold, what values are present in each column. Then I checked number of unique customers, and calculated churn rate, average number of product customer have with bank, average age of these customers, number of male and female customer to provide more context.
+
 After getting summary metrics, I decided to dig deeper by looking at churn rates across age and tenure. I could instantly see the people between age 45 and 60 tend to leave a bank at a much higher rate than other age groups. I could also see that tenure, the years the customers have been using the bank for, doesn't impact the churn rate as they are relatively constant across all tenures.
+
 Then I tried to explore where there is any geographical differences based on the country column. The higher churn rate in Germany stood out immediately basically double out of France and Spain. Active Customers are tend to leave to bank less than in-active members. 
+
 Finally, I analyzed churn rate across number of products the customer holds, has any credit card and points earned by customers. Finding here were that the customers with three of four products left more often. Maybe they didn't like the fact that they have been sold so many products. In term of churn rate by points earned by customers, I could see customers with very little points left the bank more often with the rest of them churning at a pretty even rate.
 I built a story in Power BI to communicate these findings.
