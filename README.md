@@ -14,7 +14,7 @@ A reputed bank “ABC BANK” wants to predict the Churn rate. Create a model by
 The details about all columns are given in the following data dictionary
 
 Varirable           |  Definition
--------------        | -------------
+-------------        | ---------------
 RowNumber            | Unique Row Number
 CustomerId          | Unique Customer Id
 Surname            | Surname of a customer
